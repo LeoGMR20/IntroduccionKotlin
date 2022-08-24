@@ -96,4 +96,8 @@ fun main(){
     }
 
     println(total)
+
+    //De la lista de dedades indiqueme al de mayor y menor edad
+    println("El más joven es: ${edades.sorted().first()}")
+    println("El más adulto es: ${edades.sorted().last()}")
 }
