@@ -34,4 +34,7 @@ fun main(){
     }
     println("Aprobados: ${aprobados}")
     estudiantes.keys.average()
+    println(estudiantes.keys.sorted())
+    println(estudiantes.values.sorted())
+    estudiantes.keys.count()
 }
