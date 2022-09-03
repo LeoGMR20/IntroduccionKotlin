@@ -22,7 +22,7 @@ Para el password se necesita validar:
 1) el password debe ser de una longitud de 8 caracteres.
 2) el password debe contener al menos un caracter numerico
 3) el password debe contener al menos una mayuscula y una minuscula
-4) el password deve contener al menos un caracter especial
+4) el password debe contener al menos un caracter especial
 */
 class Usuario {
     //Atributos
