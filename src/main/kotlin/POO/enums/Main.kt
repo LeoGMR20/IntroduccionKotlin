@@ -13,4 +13,15 @@ fun main() {
         Month.AUGUST,
         16
     )
+
+    val color = ColorCategories.GREEN.hexCode
+    println(color)
+
+    val conexionCode = ConnectionResponses.PERMISSION_DENIED.responseCode
+    val mensajeCode = ConnectionResponses.INTERNAL_ERROR.message
+    val peticiones = ConnectionResponses.PERMISSION_DENIED.getCountIntents()
+
+    println(conexionCode)
+    println(mensajeCode)
+    println(peticiones)
 }

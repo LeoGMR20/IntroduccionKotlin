@@ -6,7 +6,8 @@ holder o contenedor de categorias que no deberina en ningun momento
 constantes -> convencion te sugerimos que uses cada valor en mayusculas
 cuando defines un enum deberias darle un nombre muy detallado que explique
 que valores contiene o que refiere a un listado categorico
-
+***********Cada valor presente en la coleccion de valores de valores representa una instancia
+de la clase en cuestión***********
 */
 
 enum class EnemyState {
