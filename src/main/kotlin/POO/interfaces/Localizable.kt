@@ -14,8 +14,8 @@ Ojo: en lo posible trat de aplicar conceptos abstractos a la hora de definir com
     implementar aplica la lógica en la interfaz
 */
 //Herencia: misma naturaleza dependecia directa de padre e hijo
-//Interfaaz: comportamientos es lo que mas andas ajustando y cambiando en tu proyecto
-//  muchas veces son comportamientos parecidos o bajo el mismo criterio
+//Interfaz: comportamientos es lo que mas andas ajustando y cambiando en tu proyecto
+// muchas veces son comportamientos parecidos o bajo el mismo criterio
 // puedas implementar ello en cualquier clase de tu software
 interface Localizable {
     abstract var latitud: Double
