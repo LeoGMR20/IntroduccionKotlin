@@ -5,4 +5,5 @@ fun main() {
     println(vehiculo.calculatePositionGps())
     println(vehiculo.showInformation())
     vehiculo.enableMovement()
+    vehiculo.xd()
 }

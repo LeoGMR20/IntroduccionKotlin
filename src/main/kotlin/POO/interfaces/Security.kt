@@ -8,4 +8,8 @@ interface Security {
     abstract var redButton: Boolean
 
     abstract fun enableMovement()
+
+    open fun xd(){
+        println("xd")
+    }
 }

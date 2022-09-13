@@ -2,7 +2,7 @@ package POO.singleton
 //Singleton: es un patrón de diseño de software.
 //sirve para limitar cierta clase a solo tener una instrancia en todo
 //el proyecto. Se tuiliza en un ambito global
-//en Kotlion facilmente se implementa usadno la palabra reservada object
+//en Kotlion facilmente se implementa usando la palabra reservada object
 object CarritoCompra {
     var productos = mutableListOf<Producto>()
 
